@@ -14,6 +14,7 @@ body{
     padding: 20px;
     margin: 100px auto;
     border-radius: 10px;
+    text-align: center;
 }
 
 .search{
@@ -45,4 +46,37 @@ body{
 }
 .search button img{
     width: 20px;
+}
+.weather .icon{
+    margin-top: 20px;
+    width: 160px;
+}
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 45px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 27px;
 }
